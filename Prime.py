@@ -5,7 +5,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-
 # Example
 num = int(input("give a number:"))
 if is_prime(num):
